@@ -9,9 +9,7 @@ def exibir_mensagem_2(nome):
 def exibir_mensagem_3(nome="Anônimo"):
     print(f"Seja bem vindo {nome}!")
 
-def somar():
-    num1 = int(input("Digite um número: "))
-    num2 = int(input("Digite outro número:" ))
+def somar(num1, num2):
     soma = num1 + num2
     print(f"A soma entre {num1} e {num2} é igual a {soma}")
 
@@ -19,4 +17,4 @@ def somar():
 #exibir_mensagem_2(nome="Guilherme")
 #exibir_mensagem_3()
 #exibir_mensagem_3(nome="Chappie")
-somar()
+somar(1, 2)
